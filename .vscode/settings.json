@@ -1,0 +1,14 @@
+{
+    "stm32-for-vscode.openOCDPath": "openocd",
+    "stm32-for-vscode.makePath": "make",
+    "cortex-debug.armToolchainPath": "/Applications/ARM/bin",
+    "cortex-debug.openocdPath": "openocd",
+    "files.associations": {
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "*.tcc": "c",
+        "cmath": "c",
+        "usart.h": "c",
+        "main.h": "c"
+    }
+}
