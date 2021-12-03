@@ -39,6 +39,7 @@ C_SOURCES =  \
 Core/Src/dma.c \
 Core/Src/gpio.c \
 Core/Src/i2s.c \
+Core/Src/logger.c \
 Core/Src/main.c \
 Core/Src/stm32f4xx_hal_msp.c \
 Core/Src/stm32f4xx_it.c \

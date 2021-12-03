@@ -28,22 +28,18 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
-#include <string.h>
 
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN Private defines */
-#define PENDING_MESSAGES_BUFFER_SIZE 8192
 
 /* USER CODE END Private defines */
 
 void MX_USART2_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-void writeLog(char text[]);
 
 /* USER CODE END Prototypes */
 
