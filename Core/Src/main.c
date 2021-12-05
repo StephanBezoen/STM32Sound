@@ -22,12 +22,12 @@
 #include "dma.h"
 #include "gpio.h"
 #include "i2s.h"
-#include "logger.h"
 #include "tim.h"
 #include "usart.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "logger.h"
 
 /* USER CODE END Includes */
 
