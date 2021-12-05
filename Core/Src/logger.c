@@ -27,14 +27,14 @@ void checkSendNextMessage() {
         readPointer = writePointer;
     }
 
-    HAL_UART_Transmit_IT(uartHandle, (uint8_t *)messageStart, messageLength);
+    HAL_UART_Transmit_DMA(uartHandle, (uint8_t *)messageStart, messageLength);
 }
 
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart) { checkSendNextMessage(); }
 
 void appendMessageText(char *message) {
     int messageLength = strlen(message);
-    
+
     int bufferSizeLeft = (PENDING_MESSAGES_BUFFER_SIZE - writePointer);
     if (messageLength > bufferSizeLeft) {
         int len1 = bufferSizeLeft;
